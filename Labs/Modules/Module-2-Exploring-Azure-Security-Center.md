@@ -56,7 +56,7 @@ In Microsoft Defender for Cloud, You will be interacting with the Microsoft Defe
 
      ![](https://github.com/Divyasri199/AIW-Security-Immersion/blob/main/Labs/Images/regulatory.png?raw=true)
 
-10. On the **Regulatory Compliance (1)** tile, you can get insights into your compliance posture based on continuous assessment of both Azure and hybrid cloud environments. This tile shows the following standards which are **Azure Security Benchmark(2), ISO 27001, PCI DSS 3.2.1 and SOC TSP(3)**. Click on **Show all 4 (4)** to check the compliance status.
+10. On the **Regulatory Compliance (1)** tile, you can get insights into your compliance posture based on continuous assessment of both Azure and hybrid cloud environments. This tile shows the following standards which are **Azure Security Benchmark(2), ISO 27001, PCI DSS 3.2.1, SOC TSP(3) and Azure CIS 1.1.0(4)**. Click on **Show all 5 (4)** to check the compliance status.
  
      >Clicking on this tile will redirect you to the Regulatory Compliance dashboard – where you can add additional standards and explore the current ones. 
 
