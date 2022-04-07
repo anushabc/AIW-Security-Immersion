@@ -96,33 +96,29 @@ Exploring secure score
    > 
    > For more information on how the score is calculated, [refer to the secure score documentation page](https://docs.microsoft.com/en-us/azure/security-center/secure-score-security-controls#how-your-secure-score-is-calculated).
 
-4. Again on the Microsoft Defender for Cloud | Secure Score page observe the tile **Subscriptions with the lowest scores** – This score helps in determining which subscription needs your attention. Since this demo is based on a single subscription, you will see only one.
-
-    ![Subscriptions with lowest scores](../Images/subscore.png)
-
-5. The bottom section lists the subscriptions and their current secure scores. To view the recommendations behind the score, click on **View recommendations**.
+4. The bottom section lists the subscriptions and their current secure scores. To view the recommendations behind the score, click on **View recommendations**.
   
     ![Recommendations view](../Images/view-recommendations.png)
 
-6. Close the **View recommendations** page to return to **Recommendations** page.
+5. Close the **View recommendations** page to return to **Recommendations** page.
 
     ![Recommendations view](../Images/ex2.step5.png)
 
  **Exploring Security Controls and Recommendations**
 
-1. On the **Recommendations (1)** page, pay attention to the first part of the page; the **summary view (2)**. It includes the current **Secure Score**, progress on the **Recommendations status**(both completed security controls and recommendations) and **Resource health** (by severity).
+6. On the **Recommendations (1)** page, pay attention to the first part of the page; the **summary view (2)**. It includes the current **Secure Score**, progress on the **Recommendations status**(both completed security controls and recommendations) and **Resource health** (by severity).
 
     ![Recommendations view](../Images/msdefender6.png)
 
-2. From the top menu, click on the **Download CSV report** button – this allows you to get a snapshot of your resources, their health status and the associated recommendations. You can use this file for pivoting and reporting.
+7. From the top menu, click on the **Download CSV report** button – this allows you to get a snapshot of your resources, their health status and the associated recommendations. You can use this file for pivoting and reporting.
 
     ![](https://github.com/Divyasri199/AIW-Security-Immersion/blob/main/Labs/Images/csv%20report.png?raw=true)
    
-3. Under **Recommendation**, Click on **Manage access and permissions** and select **Storage account public access should be disallowed** from the drop down list.
+8. Under **Recommendation**, Click on **Manage access and permissions** and select **Storage account public access should be disallowed** from the drop down list.
 
     ![](../Images/dirsto.png)
 
-1. On the top section, notice the following:
+9. On the top section, notice the following:
 
    - Title of the recommendation: **Storage account public access should be disallowed**
    - Top menu controls: **Exempt**, **Deny**, **View policy definition** and **Open query**
@@ -132,9 +128,9 @@ Exploring secure score
 
    ![Recommendation top menu](https://github.com/Divyasri199/AIW-Security-Immersion/blob/main/Labs/Images/stacc%20public%20access.png?raw=true)
 
-9. The next important part is the **Remediation Steps** which contains the remediation logic where you can remediate the selected resource/s either by following the step-by-step instructions, use the provided ARM template in the next step, or REST API to automate the process.
+10. The next important part is the **Remediation Steps** which contains the remediation logic where you can remediate the selected resource/s either by following the step-by-step instructions, use the provided ARM template in the next step, or REST API to automate the process.
 
-10. Expand the **Remediation Steps (1)** menu on the **Secure transfer to storage accounts should be enabled** page and Click on the **Quick fix logic (2)**, notice the automatic remediation script content (ARM Template) as shown below:
+11. Expand the **Remediation Steps (1)** menu on the **Secure transfer to storage accounts should be enabled** page and Click on the **Quick fix logic (2)**, notice the automatic remediation script content (ARM Template) as shown below:
 
       ```json
       {
