@@ -35,7 +35,7 @@ In Microsoft Defender for Cloud, You will be interacting with the Microsoft Defe
 
     ![Microsoft Defender for Cloud: Dashboard](../Images/msdefender3.png)
 
-6. On the **Overview** page, and look at the **Secure Score** tile, you can see your current score along with the number of **Completed controls and Completed recommendations**. Clicking on this tile will redirect you to drill down view across subscriptions.
+6. On the **Overview** page, and look at the **Security posture** tile, you can see your current score along with the number of **Completed controls and Completed recommendations**. Clicking on this tile will redirect you to drill down view across subscriptions.
 
     > Note: It can take upto 24 hours for all the secure score data to be loaded, it has dependency on Azure. You can continue to the next steps and verify this later.
 
