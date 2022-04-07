@@ -21,7 +21,7 @@ In Microsoft Defender for Cloud, You will be interacting with the Microsoft Defe
    > ❗ Important: <br>
    > Microsoft Defender for Cloud takes time to populate information such as secure score, compliance, recommendations etc. after enabling the services and enrolling the servers to Microsoft Defender for Cloud. Sometimes, it can take up to 24 hours or even more than that for all the tiles on the overview page to update. if it takes more time, attendees can skip the next steps in Module 2 & proceed with the next modules and can come back later and check on this. we are looking at various approaches to optimize this experience for future workshops.
 
-    ![Microsoft Defender for Cloud: Overview dashboard](../Images/msdefender.png)
+    ![Microsoft Defender for Cloud: Overview dashboard](../Images/md1ex1stp2.png)
 
 3. Note that the **Subscriptions** icon on the **top menu bar** allows you to view and filter subscriptions. In this lab, we will use only one subscription, but for your reference, selecting different/additional subscriptions will adjust the interface to reflect the security posture for the specified subscription.
 
@@ -39,28 +39,28 @@ In Microsoft Defender for Cloud, You will be interacting with the Microsoft Defe
 
     > Note: It can take upto 24 hours for all the secure score data to be loaded, it has dependency on Azure. You can continue to the next steps and verify this later.
 
-    ![Overview: Secure Score tile](../Images/asc-overview-secure-score-tile1.png?raw=true)
+    ![Overview: Secure Score tile](../Images/md1ex1stp6.png?raw=true)
 
     > ⭐ Good to know: <br>
     > The higher the score, the lower the identified risk level.
 
 7. From the **Microsoft Defender for Cloud** page Select the  **Workload Protections** from the **Cloud Security** section.
 
-    ![](https://github.com/Divyasri199/AIW-Security-Immersion/blob/main/Labs/Images/workload.png?raw=true)
+   ![Overview: Secure Score tile](../Images/md1ex1stp7.png?raw=true)
 
 8. On the **Workload Protections** **(1)**, under Cloud Security, you can see the coverage of your **connected resources(2)** for the currently selected subscription. Your current resource coverage should be **fully covered 100% (3)** which means **full protection**. Additionally, you can also view the recent **security alerts (4)**, color-coded by severity.
 
-     ![Overview: Microsoft Defender  for Cloud tile](https://github.com/Divyasri199/AIW-Security-Immersion/blob/main/Labs/Images/workload%20protection.png?raw=true)
+     ![Overview: Microsoft Defender  for Cloud tile](../Images/md1ex1stp8.png?raw=true)
 
 9. Next, select the **Regulatory Compliance** from the **Cloud Security** section of the Microsoft Defender for Cloud page.
 
-     ![](https://github.com/Divyasri199/AIW-Security-Immersion/blob/main/Labs/Images/regulatory.png?raw=true)
+     ![](../Images/md1ex1stp9.png?raw=true)
 
-10. On the **Regulatory Compliance (1)** tile, you can get insights into your compliance posture based on continuous assessment of both Azure and hybrid cloud environments. This tile shows the following standards which are **Azure Security Benchmark(2), ISO 27001, PCI DSS 3.2.1, SOC TSP(3) and Azure CIS 1.1.0(4)**. Click on **Show all 5 (4)** to check the compliance status.
+10. On the **Regulatory Compliance (1)** tile, you can get insights into your compliance posture based on continuous assessment of both Azure and hybrid cloud environments. This tile shows the following standards which are **Azure Security Benchmark(2), ISO 27001, PCI DSS 3.2.1, SOC TSP(3) and Azure CIS 1.1.0**. Click on **Show all 5 (4)** to check the compliance status.
  
      >Clicking on this tile will redirect you to the Regulatory Compliance dashboard – where you can add additional standards and explore the current ones. 
 
-     ![Overview: Regulatory Compliance tile](../Images/msdefender4.png)
+     ![Overview: Regulatory Compliance tile](../Images/md1ex1stp10.png)
    
      > Note: It can take upto 24 hours for compliance status to be loaded, it has dependency on Azure. You can continue to the next steps and verify this later.
 
@@ -69,7 +69,7 @@ In Microsoft Defender for Cloud, You will be interacting with the Microsoft Defe
      > ❗ Important: <br>
      > Unmonitored VMs are considered as virtual machines that have Log Analytics agent deployed, but the agent isn't sending data or has other health issues.
 
-    ![Overview: Inventory tile](../Images/msdefender5.png)
+    ![Overview: Inventory tile](../Images/md1ex1stp11.png)
 
 
 ### Exercise 2: Exploring Secure Score and Recommendations
